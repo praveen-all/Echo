@@ -31,8 +31,8 @@ Management Team can see only feedbacks and daily users details on their page.
 
 
 
-Source code:-https://github.com/praveen-all/Echo
-commands 
+Source code:-https://github.com/praveen-all/Echo 
+   commands 
    1) npm init
    2) npm start
    3) cd /server
