@@ -10,7 +10,7 @@ Screenshot of our website
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/c38ea250-8fb8-4a5e-8100-cc9695e825f3)
 
-User Profile page contains corrent payment status and all his details. 
+The user Profile page contains the current payment status and all his details. 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/baf8b5cb-61be-4056-b3e9-df72d728e7bd)
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/8d22ba78-d11c-4ee4-a7db-117441dee66c)
@@ -23,7 +23,7 @@ Payment gateway using Stripe
 ![image](https://github.com/praveen-all/Echo/assets/110656664/8eac4eae-e4d4-4f72-ae03-950248df7c28)
 
 
-Management Team can see only feedbacks and daily users details on their pages 
+Management Team can see only feedbacks and daily users details on their page.
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/e9040e10-662b-4595-ba17-72b04cf7049f)
 
@@ -31,7 +31,12 @@ Management Team can see only feedbacks and daily users details on their pages
 
 
 
-Source code 
+Source code:-https://github.com/praveen-all/Echo
+commands 
+   1) npm init
+   2) npm start
+   3) cd /server
+   4) npm start
 
 
 
