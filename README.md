@@ -8,11 +8,11 @@ Screenshot of our website
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/5dd5cf8b-768c-4709-8d0c-e07cc309ab45)
 
-![image](https://github.com/praveen-all/Echo/assets/110656664/a12ab3fb-6287-4da9-9b26-e37ecbeaafe9)
+![image](https://github.com/praveen-all/Echo/assets/110656664/c6ce1f3f-0b48-41dd-939d-7eab9c27a891)
 
 
 The user Profile page contains the current payment status and all his details. 
-![image](https://github.com/praveen-all/Echo/assets/110656664/c6ce1f3f-0b48-41dd-939d-7eab9c27a891)
+![image](https://github.com/praveen-all/Echo/assets/110656664/a12ab3fb-6287-4da9-9b26-e37ecbeaafe9)
 
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/2824edc0-a26e-4239-947f-b132344a0ddd)
