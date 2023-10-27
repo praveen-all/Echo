@@ -1,5 +1,4 @@
 import { toast } from "react-toastify";
- 
 export const ToastError = (message) => {
   return toast.error(message, {
     position: toast.POSITION.TOP_CENTER,
@@ -20,3 +19,5 @@ export const ToastInfo = (message) => {
     position: toast.POSITION.TOP_CENTER,
   });
 };
+
+

@@ -4,23 +4,25 @@ import authImage from "./../../Images/authBackground.jpeg";
 import { ToastError, ToastSuccess, ToastWarning } from '../../utility/errorToasts';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../Firebase';
+import { UserState } from '../../context/UserContext';
 export default function Login() {
 
    const [email, setEmail] = useState();
    const [password, setPassword] = useState();
     const navigate=useNavigate();
-
+const { isLoad, setIsLoad } = UserState();
    const loginController=async(e)=>{
            e.preventDefault();
-           
+          
   if ( !email || !password ) {
     return ToastWarning("please provide all information");
   }
-
+ 
    try {
     await signInWithEmailAndPassword(auth, email, password);
     ToastSuccess("logged in successfully");
     navigate("/");
+    
    } catch (error) {
     if (error.code === "auth/user-not-found") {
       ToastError("There is no user with this email ");
@@ -32,6 +34,7 @@ export default function Login() {
       ToastError(" something went  Wrong,Please try again later ");
       console.log(error.message);
     }
+    
    }
 
    }
@@ -83,7 +86,7 @@ export default function Login() {
 
         <div className="login__check"></div>
 
-        <button onClick={loginController} className="login__button">
+        <button onClick={loginController} className="login__button" style={{color:"black"}}>
           Login
         </button>
 

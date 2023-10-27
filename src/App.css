@@ -259,7 +259,7 @@ body {
 
 .navbar {
   height: 60px;
-  background-color: #fef7e5;
+  background-color: rgb(6 201, 190,0.5);
   position: relative;
 }
 
@@ -278,7 +278,7 @@ body {
 }
 
 .nav-elements ul li:not(:last-child) {
-  margin-right:30px;
+  margin-right: 30px;
 }
 
 .nav-elements ul a {
@@ -309,6 +309,7 @@ body {
     margin-right: 30px;
   }
 }
+
 /* 
 @media (max-width: 600px) {
   .menu-icon {
@@ -341,3 +342,104 @@ body {
     margin-top: 22px;
   }
 } */
+
+
+/* payment */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+.card {
+  max-width: 500px;
+  margin: 5% auto;
+  color: black;
+  border-radius: 20 px;
+}
+
+p {
+  margin: 0px;
+}
+
+.container1 .h8 {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.btn.btn-primary {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  /* background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA 51%, #77A1D3 100%); */
+  border: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+
+}
+
+
+.btn.btn.btn-primary:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.btn.btn-primary:hover .fas.fa-arrow-right {
+  transform: translate(15px);
+  transition: transform 0.2s ease-in;
+}
+
+.form-control {
+  color: black;
+  /* background-color: #223C60; */
+
+  border: 1px solid rgb(41, 40, 40);
+  height: 60px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+
+/* .form-control:focus {
+  color: white;
+  background-color: #0c4160b3;
+  border: 2px solid #2d4ddabf;
+  box-shadow: none;
+} */
+
+.text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-weight: 600;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 95%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 201, 190);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(65, 201, 190);
+}
+
+
+/* footer */
+
+

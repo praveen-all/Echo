@@ -4,12 +4,14 @@ import { auth } from "../../Firebase";
 import { Link, useNavigate } from "react-router-dom";
 import authImage from "./../../Images/authBackground.jpeg";
 import { ToastError, ToastWarning } from "../../utility/errorToasts";
+import { UserState } from "../../context/UserContext";
 
 export default function SignUp() {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [confirmPassword, setConfirmPassowrd] = useState();
+  const { isLoad, setIsLoad } = UserState();
   const navigate = useNavigate();
   const signupController = async (e) => {
     e.preventDefault();
@@ -21,14 +23,17 @@ export default function SignUp() {
     if (password !== confirmPassword) {
       return ToastWarning("Miss match passsword!!");
     }
+    
 
     try {
       await createUserWithEmailAndPassword(auth, email, password);
       await updateProfile(auth.currentUser, { displayName: name });
       navigate("/");
+      
     } catch (error) {
-      ToastError("something went wrong");
-      console.log(error);
+      ToastError(error.message);
+      console.log(error.message);
+      
     }
   };
   return (
@@ -113,7 +118,11 @@ export default function SignUp() {
 
           <div className="login__check"></div>
 
-          <button onClick={signupController} className="login__button">
+          <button
+            onClick={signupController}
+            className="login__button"
+            style={{ color: "black" }}
+          >
             Sign - Up
           </button>
 
