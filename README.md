@@ -23,13 +23,15 @@ Payment gateway using Stripe
 ![image](https://github.com/praveen-all/Echo/assets/110656664/8eac4eae-e4d4-4f72-ae03-950248df7c28)
 
 
-Management Team can see only feedback and daily users details on their pages 
+Management Team can see only feedbacks and daily users details on their pages 
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/e9040e10-662b-4595-ba17-72b04cf7049f)
 
 ![image](https://github.com/praveen-all/Echo/assets/110656664/6e20de27-4a83-47fd-960e-cbb432a2439e)
 
 
+
+Source code 
 
 
 
